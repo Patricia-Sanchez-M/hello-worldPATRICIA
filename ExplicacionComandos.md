@@ -1,14 +1,19 @@
-git fork: se utiliza para creae una copia de un repositorio remoto en una cuenta personal. 
-          es un comando esencial en GitHub y GitLab, ya que ambas son plataformas para para el control de versiones centralizadas.
-          se crea una copia del repositorio en tu cuenta personal y una conexión entre tu copia personal y el repositorio original para que puedas contribuir con tus cambios si los otros colaboradores los aceptan (mediante git pull, por ejemplo).
+git fork 
+ - se utiliza para creae una copia de un repositorio remoto en una cuenta personal. 
+ - es un comando esencial en GitHub y GitLab, ya que ambas son plataformas para para el control de versiones centralizadas.
+ - se crea una copia del repositorio en tu cuenta personal y una conexión entre tu copia personal y el repositorio original para que puedas contribuir con       tus cambios si los otros colaboradores los aceptan (mediante git pull, por ejemplo).
 
-![image](https://user-images.githubusercontent.com/97602170/214023540-7b17ac09-9d6f-49b5-ad65-df48edcb8a03.png)
+Para realizar dicho fork, se accedió al repositorio que se quería clonar mediante el URL [https://github.com/ALUMNO-GITT-PAT-practica-1/](https://github.com/gitt-3-pat/hello-world) y se utilizó el siguiente botón:
+
+![image](https://user-images.githubusercontent.com/97602170/214024294-85d3d540-e9cd-45eb-8a2a-0566debde2f1.png)
 
 
 
 
 
 git clone:
+
+
 
 
 En mi caso, clone el repositorio del cual hice fork en una carpeta temporal, para que no tener los archivos duplicados del fork en mi repositorio local:
