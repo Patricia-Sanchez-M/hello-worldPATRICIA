@@ -2,6 +2,7 @@ git fork: se utiliza para creae una copia de un repositorio remoto en una cuenta
           es un comando esencial en GitHub y GitLab, ya que ambas son plataformas para para el control de versiones centralizadas.
           se crea una copia del repositorio en tu cuenta personal y una conexión entre tu copia personal y el repositorio original para que puedas contribuir con tus cambios si los otros colaboradores los aceptan (mediante git pull, por ejemplo).
 
+![image](https://user-images.githubusercontent.com/97602170/214023540-7b17ac09-9d6f-49b5-ad65-df48edcb8a03.png)
 
 
 
