@@ -109,3 +109,34 @@ Aprendemos en esta imagen que en verde aparece el nombre de usuario de GitHub, e
 
 
 ## **git pull** 
+Es el comando contrario a *git push*, pues se utiliza para fusionar todos los cambios hechos en el repositorio remoto con el repositorio local.
+
+Por ejemplo, a la hora de añadir imágenes o poner texto en negrita o cursiva, edité este README directamente en el repositorio remoto. Después de hacer un *commit* de los cambios en la rama local desde el repositorio remoto (primera imagen), tuve que hacer un *git pull* en el repositorio local (segunda imagen) para que los cambios se viesen reflejados en él.
+
+![image](https://user-images.githubusercontent.com/97602170/215284905-0e0c8471-0bd0-4598-81e9-d05365885194.png)
+
+![image](https://user-images.githubusercontent.com/97602170/215285021-0c1099d5-ad84-462f-ad8e-a9a4702532a3.png)
+
+
+
+
+
+# INSTALACIÓN DE SOFTWARE
+
+## Java
+
+![image](https://user-images.githubusercontent.com/97602170/215285261-77322bde-8c7d-47e4-a04a-556f800a8a0d.png)
+
+## Maven
+
+![image](https://user-images.githubusercontent.com/97602170/215285164-bc599324-8c0c-42a8-a957-d3c31d4060fb.png)
+
+## Visual Studio Code
+
+![image](https://user-images.githubusercontent.com/97602170/215285248-35c53b73-1a05-4780-a7b9-f774be7a396a.png)
+
+## Docker
+
+![image](https://user-images.githubusercontent.com/97602170/215285134-837d1154-e38e-46c9-9422-d308341b8fad.png)
+
+
