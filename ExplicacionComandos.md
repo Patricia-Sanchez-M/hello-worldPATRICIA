@@ -2,9 +2,9 @@
 
 
 ## **git fork** <*repositorio*>
- - Se utiliza para crear una copia de un repositorio remoto en una cuenta personal. 
+ - Se utiliza para crear una copia de un repositorio remoto en otro repositorio remoto personal. 
  - Es un comando esencial en GitHub y GitLab, ya que ambas son plataformas para para el control de versiones centralizadas.
- - Consiste en crear una copia del repositorio en tu cuenta personal y una conexión entre dicha copia personal y el repositorio original para que puedas contribuir con tus cambios si los otros colaboradores los aceptan (mediante git pull, por ejemplo).
+ - Consiste en crear una copia del repositorio en tu cuenta personal y una conexión entre dicha copia personal y el repositorio original para que puedas contribuir con tus cambios si los otros colaboradores los aceptan (mediante *git pull*, por ejemplo).
 
 Para realizar dicho fork, se accedió al repositorio que se quería clonar mediante el URL [https://github.com/ALUMNO-GITT-PAT-practica-1/](https://github.com/gitt-3-pat/hello-world) y se utilizó el siguiente botón en la esquina superior derecha:
 
@@ -14,9 +14,9 @@ Para realizar dicho fork, se accedió al repositorio que se quería clonar media
 
 
 ## **git clone** <*repositorio a clonar*>
-- Crea una copia idéntica de un repositorio objetivo en un repositorio local.
+- Crea una copia idéntica de un repositorio remoto de un autor ajeno en un repositorio local personal.
 - Todos los cambios que realices a partir de entonces son localmente; no tienes permiso para modificar los archivos originales del autor.
-- Se diferencia del fork porque no es una herramienta para el control de cambios de un proyecto, sino para modificar los archivos clonados a tu libre disposición.
+- Se diferencia de *git fork* porque no es una herramienta para el control de cambios de un proyecto, sino para modificar los archivos clonados a tu libre disposición.
 
 Para demostrar el funcionamiento de este comando, se clonó el repositorio mencionado anteriormente en un directorio temporal, ya que no se desea tener los archivos duplicados en el repositorio local:
 
@@ -28,7 +28,7 @@ Para demostrar el funcionamiento de este comando, se clonó el repositorio menci
 ## **git status**
 Este comando proporciona información sobre el estado actual de la rama donde se encuentra el directorio donde es ejecutado. Esto incluye información sobre archivos que se han modificado, agregado, eliminado, etc.
 
-Por ejemplo, tras la creación de un fichero hola.txt y de escribir "hola" en él, el comando git status sirve para revelar que se han producido cambios en el directorio /workspaces/hello-worldPATRICIA:
+Por ejemplo, tras la creación de un fichero *hola.txt* y de escribir "hola" en él, el comando git status sirve para revelar que se han producido cambios en el directorio */workspaces/hello-worldPATRICIA*:
 
 ![image](https://user-images.githubusercontent.com/97602170/215190360-aaef86a5-ef61-448b-ae4d-91ba1d0d4c81.png)
 
@@ -41,7 +41,7 @@ Por ejemplo, tras la creación de un fichero hola.txt y de escribir "hola" en é
 - Los cambios en git tienen lugar en tres fases. En primer lugar, tienen que ser incluidos en un primer borrador. El parámetro del comando indica los archivos para los cuales se quiere registrar un cambio; si se pone un ".", quiere decir a todos los archivos del directorio en el que se encuentre.
 - Este comando se podría entender como una zona intermedia donde se almacenan los cambios que se incluirán en el siguiente paso.
 
-Tras haber creado el fichero hola.txt y haber escrito "hola", hay que confirmar los cambios en el borrador:
+Tras haber creado el fichero *hola.txt* y haber escrito "hola", hay que confirmar los cambios en el borrador:
 
 ![image](https://user-images.githubusercontent.com/97602170/215191985-199f7c42-ffda-4a97-9423-fa9c30db261e.png)
 
@@ -56,7 +56,7 @@ Tras haber creado el fichero hola.txt y haber escrito "hola", hay que confirmar 
 
 ![image](https://user-images.githubusercontent.com/97602170/215193554-9c7872d2-90cb-4d27-8db0-b8858ccaf240.png)
 
-Si en este momento volvemos a hacer un *git status*, observaremos que los cambios están actualizados, y que ya solo queda un último paso para que esos cambios se reflejen en el repositorio de forma pública. Este último paso se comentará en el apartado siguiente.
+Si en este momento volvemos a hacer un *git status*, observaremos que los cambios están actualizados, y que ya solo queda un último paso para que esos cambios se reflejen en el repositorio remoto de forma pública. Este último paso se comentará en el apartado siguiente.
 
 ![image](https://user-images.githubusercontent.com/97602170/215283373-15987873-cb67-495c-8fc6-b657a2918f8f.png)
 
@@ -64,7 +64,7 @@ Si en este momento volvemos a hacer un *git status*, observaremos que los cambio
 
 
 ## **git push** 
-- El último paso para reflejar cambios en un repositorio de forma pública.
+- El último paso para reflejar cambios en un repositorio para que otros usuarios puedan verlo.
 - Se utiliza para subir los cambios de repositorios locales a repositorios remotos en GitHub.
 - Cabe destacar que solo se subirán los cambios de la rama especificada al repositorio remoto.
 - Toma dos argumentos: 
@@ -75,7 +75,7 @@ En la imagen siguiente, se observa como *git push origin main* sube los cambios 
 
 ![image](https://user-images.githubusercontent.com/97602170/215283679-ae2b2392-7fb1-44d2-b941-d5377a9de9cd.png)
 
-Además, tras este paso en mi repositorio remoto *origin*, aparece como cabía esperar el fichero hola.txt:
+Además, tras este paso en mi repositorio remoto *origin*, aparece como cabía esperar el fichero *hola.txt*:
 
 ![image](https://user-images.githubusercontent.com/97602170/215283745-67eabb82-555f-4c4e-bc8b-4912e1690abe.png)
 
